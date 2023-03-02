@@ -8,10 +8,11 @@ public class AtacarCommand implements Command {
     }
 
     public void execute() {
+        System.out.println("Atacando(");
         personaje.saltar();
         personaje.moverse();
         personaje.golpear();
-        System.out.println("Atacando");
+        System.out.println(")");
     }
 }
 

@@ -8,8 +8,9 @@ public class RegenerarCommand implements Command {
     }
 
     public void execute() {
+        System.out.println("Regenerando:(");
         personaje.protegerse();
         personaje.curarse();
-        System.out.println("Regenerando");
+        System.out.println(")");
     }
 }

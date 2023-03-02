@@ -8,6 +8,7 @@ public class ContraAtaqueCommand implements Command {
     }
 
     public void execute() {
+        System.out.println("Contraatacando (");
         personaje.moverse();
         personaje.saltar();
         personaje.moverse();
@@ -16,6 +17,6 @@ public class ContraAtaqueCommand implements Command {
         personaje.golpear();
         personaje.curarse();
         personaje.moverse();
-        System.out.println("Contraatacando");
+        System.out.println(")");
     }
 }
